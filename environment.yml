@@ -1,0 +1,13 @@
+name: Pearson-ML
+dependencies:
+  - python=3
+  - scikit-learn
+  - pandas
+  - numpy
+  - matplotlib
+  - jupyter
+  - seaborn
+  - pillow
+  - graphviz
+  - pip:
+      - graphviz

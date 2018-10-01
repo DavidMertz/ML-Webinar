@@ -1,0 +1,14 @@
+# For Python 3.6+
+scikit-learn
+pandas
+numpy
+matplotlib
+jupyter
+seaborn
+pillow
+
+# This is only the Python bindings for graphviz
+# Need to use system installers for graphviz itself
+graphviz
+
+
