@@ -1,4 +1,6 @@
 name: Pearson-ML
+channels:
+  - conda-forge
 dependencies:
   - python=3
   - scikit-learn
@@ -9,5 +11,4 @@ dependencies:
   - seaborn
   - pillow
   - graphviz
-  - pip:
-      - graphviz
+  - pygraphviz
