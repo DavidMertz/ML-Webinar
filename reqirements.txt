@@ -1,5 +1,6 @@
 # For Python 3.6+
 scikit-learn
+hdbscan
 pandas
 numpy
 matplotlib

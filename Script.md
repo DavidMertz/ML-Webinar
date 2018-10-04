@@ -33,30 +33,31 @@ Beyond downloading the content of the GitHub repository, you should setup a suit
 
 I hope you will enjoy and learn a great deal from the next several hours of training.  Please feel free to pause the video wherever it is convenient, and play around with techniques, concepts, and code presented within the interactive Jupyter notebooks.  I hope your personally customized version of these notebooks will be a valuable resource for you to return to later.
 
+In the the notebooks that you downloaded, a variety of exercises will be available for you to practice working with the APIs and techniques discussed in this course.  As you go through the material on your own, I encourage you to pause the video to try these exercises and/or to return to the notebooks after you have finished watching.
+
 
 ## Lesson 1: What is Machine Learning?
 
-* Difference between "Deep Learning" and other ML techniques
-* Overview of techniques used in Machine Learning
-* Classification vs. Regression vs. Clustering
-* Dimensionality Reduction
-* Feature Engineering
-* Feature Selection, 
-* Categorical vs. Ordinal vs. Continuous variables
-* One-hot encoding
-* Hyperparameters
-* Grid Search
-* Metrics
+Welcome to lesson one.  In this first lesson we address many essential concepts in machine learning; little in this lesson is specific to Python or scikit-learn, and almost all of it will apply equally if you happen to use a different library or programming language.
+
+After a brief detour into talking about deep learning and why it is—although fascinating—not the focus of this particular course, we will see the main concepts you need to understand for machine learning.  You will learn about the main types of tasks that can be accomplished with ML.  We will then look at issues of dimensionality, of feature engineering and selection, of feature/variable types, and explore a few of the techniques and concepts that make it practical to work with machine learning libraries and systems.
+
+At the end of this lesson you will have a broad understanding of all the main concepts used in machine learning.
 
 ## Lesson 2: Exploring a data set
 
-* Looking for anomalies and data integrity problems
-* Cleaning data
-* Massaging data format to be model-ready
-* Choosing features and a target
-* Train/test split
+Welcome to lesson two.  In this lesson we prepare a dataset for machine learning models.  In the real world, data always arrives messy and flawed.  Before you can get to applying machine learning techniques, it is almost always necessary to massage, and filter, and generally clean up your data.
+
+Much of what you will probably do in exploration and cleaning of datasets will utilize Pandas, which is a rich library for exactly those tasks.  This lesson will do most of its work using that tool.  Pandas is not a per se requirement for scikit-learn, but they play very well together.
+
+At the end of this lesson, you will have an initial idea of how to get a "feel" for your data and be able to think about likely problems and anamolies within novel datasets.  After many years of practice as a working data scientist, you will be highly skilled at these same judgements.
 
 ## Lesson 3: Classification
+
+Welcome to lesson three.  One of the main techniques you will use within machine learning—specifically wihtin what we call *supervised* machine learning is Classification.  As we discussed in lesson one, classification is trying to match a collection of multiple features to a *categorical* target.  That is, we know that the prediction we are hoping to make is that a newly observed item belongs to one of N known classes.
+
+There are many algorithms for performing classification, a large number of them are 
+
 
 * Choosing a model
 * Feature importances
