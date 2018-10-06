@@ -1,4 +1,3 @@
-
 # Machine Learning with scikit-learn
 
 ## Overall Introduction: Welcome to Machine Learning with scikit-learn
