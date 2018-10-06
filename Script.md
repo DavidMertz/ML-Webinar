@@ -28,7 +28,9 @@ The course content itself is presented using Jupyter notebooks.  These are avail
 
 Beyond downloading the content of the GitHub repository, you should set up a suitable environment for running the Jupyter notebooks.  The repository contains a file `environment.yml` for creating an environment using the `conda` package manager and a file `requirements.txt` for creating an environment under the `pip` package manager.  Please use one of these to install a suitable environment, then launch the material using `jupyter notebook Outline.ipynb` at the command line.
 
-David at this point you should give us a quick rundown of the lessons and what is covered in each.
+--
+
+In this course we first introduce general machine learning concepts that are general across libraries. Then we look at data cleanup and preparation using Pandas.  Then we turn to actual modeling, using several broad categories of machine learning tasks, both supervised and unsupervised.  In the last few lessons we discuss and practice with hyperparameters, grid search, feature selection, feature engineering, pipelines, and robust train/test splits.  These last topics are all issues you will think about when you prepare production-ready machine learning models in a reproducible way.  The first few lessons address the basic concepts and techniques of machine learning, and choosing the right goals and models. The lessons at the end address the scaffolding needing to actually implement more abstract models for concrete purposes.
 
 --
 
