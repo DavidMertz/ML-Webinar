@@ -7,6 +7,7 @@ matplotlib
 jupyter
 seaborn
 pillow
+pyamg
 
 # This is only the Python bindings for graphviz
 # Need to use system installers for graphviz itself

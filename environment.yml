@@ -13,3 +13,5 @@ dependencies:
   - pillow
   - graphviz
   - pygraphviz
+  - pyamg
+  - jupyterlab
