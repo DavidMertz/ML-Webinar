@@ -53,7 +53,7 @@ Welcome to lesson two.  In this lesson we prepare a dataset for machine learning
 
 Much of what you will probably do in exploration and cleaning of datasets will utilize Pandas, which is a rich library for exactly those tasks.  This lesson does most of its work using that tool.  Pandas is not a per se requirement for scikit-learn, but they play very well together.
 
-At the end of this lesson, you will have an initial idea of how to get a "feel" for your data and be able to think about likely problems and anamolies within novel datasets.  After many years of practice as a working data scientist, you will be highly skilled at these same judgements.
+At the end of this lesson, you will have an initial idea of how to get a "feel" for your data and be able to think about likely problems and anomalies within novel datasets.  After many years of practice as a working data scientist, you will be highly skilled at these same judgements.
 
 ## Lesson 3: Classification
 
@@ -87,7 +87,7 @@ It is often, even usually, difficult to judge in advance what the best choice of
 
 ## Lesson 7: Feature engineering and feature selection
 
-Welcome to lesson seven.  In prior lessons, we mostly looked at choosing and training models using relatively naive feature sets drawn from the underying datasets.  However, when you need to work on problems with real world complexity, often the features you are initially provided by a dataset are not powerful enough to achieve the model effectiveness you need.
+Welcome to lesson seven.  In prior lessons, we mostly looked at choosing and training models using relatively naive feature sets drawn from the underlying datasets.  However, when you need to work on problems with real world complexity, often the features you are initially provided by a dataset are not powerful enough to achieve the model effectiveness you need.
 
 Of course, some data simply does not contain the necessary intrinsic force.  But most of the time, it rather requires extra work to tease out the "features of the features" that are actually most useful for your purposes.  These initial steps are called "feature engineering" and "feature selection."  The former involve constructing synthetic features based on the raw features you are given, by various combinations of scaling them, combining them, handling outliers, or transforming the representation of features.  The latter, feature selection, involves reducing the number of features you utilize, often subsequent to multiplying that number in feature engineering steps, to select only those that are most predictive.  Sometimes feature selection is needed simply to make training a model computationally tractable.
 
@@ -109,7 +109,7 @@ Thank you for watching this course on "Machine Learning with scikit-learn."
 
 We have spent a number of hours together reviewing concepts in machine learning and usage details about scikit-learn.  This course was only the beginning of your learning path, but I hope it has been a good start.  After having watched this video, I encourage you to return to the notebooks presented to review them, and also to follow up by completing all the exercises provided to accompany these notebooks.  After these hours and those working on exercises, I advise you next to spend months and years exploring the ins and outs of concrete machine learning problems; a good intuition about these issues takes both practice and dedication to learning.
 
-The beginning of this course presented the broad concepts you will need to understand machine learning, even if you use a language other than Python or a library other than scikit learn.  From there, we had a chance to work with supervised learning problems, performing both classifications and regressions.  You saw discussion of dozens of models available in scikit-learn for supervised learning, and came to understand the methodology of train/test splits and valiation metrics. 
+The beginning of this course presented the broad concepts you will need to understand machine learning, even if you use a language other than Python or a library other than scikit learn.  From there, we had a chance to work with supervised learning problems, performing both classifications and regressions.  You saw discussion of dozens of models available in scikit-learn for supervised learning, and came to understand the methodology of train/test splits and validation metrics. 
 
 By the middle lesson, you had a chance to look also at unsupervised models, and should understand both when you will want to use them against future datasets and problems, and also what API differences you need to think about compared with supervised models.
 
