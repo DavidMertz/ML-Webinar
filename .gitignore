@@ -5,3 +5,5 @@ external/*
 src/mglearn/__pycache__/*
 src/.ropeproject/*
 src/.ipynb_checkpoints/*
+src/__pycache__/*
+
