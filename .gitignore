@@ -1,9 +1,0 @@
-ML.html
-ML_files/*
-external/*
-.ipynb_checkpoints/*
-src/mglearn/__pycache__/*
-src/.ropeproject/*
-src/.ipynb_checkpoints/*
-src/__pycache__/*
-.DS_STORE
