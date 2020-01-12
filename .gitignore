@@ -1,0 +1,10 @@
+ML.html
+ML_files/*
+external/*
+.ipynb_checkpoints/*
+**/.ropeproject/**
+**/.ipynb_checkpoints/**
+**/__pycache__/**
+.DS_STORE
+**/*.swp
+**/*.pyc
