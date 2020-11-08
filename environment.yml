@@ -3,8 +3,8 @@ channels:
   - intel
   - conda-forge
 dependencies:
-  - python=3.7
-  - scikit-learn=0.22
+  - python=3.8
+  - scikit-learn
   - hdbscan
   - pandas
   - numpy
