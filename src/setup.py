@@ -4,9 +4,6 @@ warnings.simplefilter("ignore")
 
 from os.path import join
 
-# We utilize some mglearn demo functions
-import src.mglearn as mglearn
-
 import matplotlib.pyplot as plt
 
 import numpy as np
