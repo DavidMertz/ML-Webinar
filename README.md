@@ -34,6 +34,10 @@ $ pip install -r requirements.txt
 $ jupyter notebook Outline.ipynb
 ```
 
+A quicker way to do this, is probably to use it within Binder.  Just launch:
+
+> https://mybinder.org/v2/gh/DavidMertz/ML-Webinar.git/HEAD
+
 ## Recommended reading
 
 * [Machine Learning with `scikit-learn`](https://github.com/DavidMertz/ML-Webinar)
