@@ -1,17 +1,22 @@
 # Some libraries tend to be in flux for their dependency versions
+import sys
 import warnings
 warnings.simplefilter("ignore")
 
 from os.path import join
-
 import matplotlib.pyplot as plt
-
 import numpy as np
 import pandas as pd
 import sklearn
 from sklearn import datasets
 from sklearn.model_selection import train_test_split
 from sklearn.datasets import load_breast_cancer
+
+try:
+    from sklearnex import patch_sklearn
+    patch_sklearn()
+except:
+    print("Intel accelerator not installed (not required)", file=sys.stderr)
 
 linf = pd.read_csv('data/linear_failure.csv', index_col=0)
 

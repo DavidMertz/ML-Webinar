@@ -1,14 +1,14 @@
-name: Pearson-ML
+name: KDM-ML
 channels:
   - intel
   - conda-forge
 dependencies:
-  - python=3.8
+  - python=3.9
   - scikit-learn
   - hdbscan
   - pandas
   - numpy
-  - matplotlib
+  - matplotlib=3.3
   - jupyter
   - seaborn
   - pillow
@@ -16,3 +16,4 @@ dependencies:
   - pygraphviz
   - pyamg
   - jupyterlab
+  - scikit-learn-intelex
