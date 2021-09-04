@@ -2,9 +2,9 @@
 
 This repository is for use with the Pearson Publishing (Safari) live webinars:
 
-* "Beginner Machine Learning with `scikit-learn`."
-* "Intermediate Machine Learning with `scikit-learn`."
-* "Advances Machine Learning with `scikit-learn`."
+* Beginner Machine Learning with `scikit-learn`
+* Diving Deeper into Machine Learning with `scikit-learn`
+* Advanced Machine Learning with `scikit-learn`
 
 Versions of this material are used by other training provided by David Mertz
 and [KDM Training](http://kdm.training).
